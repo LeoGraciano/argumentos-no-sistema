@@ -9,6 +9,7 @@ if qt_args <= 1:
     print('Faltando argumentos:')
     print('-l', 'Para Lista todos os aquivos nessa pasta', sep='\t')
     print('-d', 'Para Lista todos os diretorios nessa pasta', sep='\t')
+    sys.exit()
 
 only_files = False
 if '-l' in args:
